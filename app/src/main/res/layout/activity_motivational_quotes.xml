@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:layout_height="match_parent"
+    tools:context=".MotivationalQuotesActivity">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q1" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q2" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q3" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q4" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q5" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q6" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q7" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q8" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q9" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q10" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q11" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q12" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q13" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q14" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q15" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q16" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q17" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q18" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q19" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q20" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q21" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q21" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q22" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q23" />
+
+
+
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q24" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q25" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q26" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q27" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q28" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q29" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q30" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q31" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q32" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q33" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q34" />
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/q35" />
+
+
+    </ViewFlipper>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/nextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_flipper"
+        android:onClick="nextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#fff"
+        android:src="@drawable/ic_navigate_next_black_24dp"
+        app:fabSize="normal"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/prevbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="prevView"
+        android:layout_below="@id/view_flipper"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="28dp"
+        android:backgroundTint="#fff"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+        app:fabSize="normal"/>
+
+
+
+
+
+
+</RelativeLayout>

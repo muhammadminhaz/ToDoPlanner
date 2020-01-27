@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1919"
+    tools:context=".UpdateTaskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/varela_round"
+            android:text="Update Task"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/gradient_1"
+            />
+
+        <EditText
+            android:id="@+id/editTextTask"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/varela_round"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="15dp"
+            android:textColorHint="#B6B6B6"
+            android:hint="Change your mind"  />
+
+        <EditText
+            android:id="@+id/editTextDesc"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/varela_round"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="15dp"
+            android:textColorHint="#B6B6B6"
+            android:hint="Details "/>
+
+        <EditText
+            android:id="@+id/editTextFinishBy"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/varela_round"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="15dp"
+            android:textColorHint="#B6B6B6"
+            android:hint="Update due time" />
+
+        <CheckBox
+            android:id="@+id/checkBoxFinished"
+            android:buttonTint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Mark as completed" />
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/savebuttongradient"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttons"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

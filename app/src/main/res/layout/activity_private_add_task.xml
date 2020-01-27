@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1919"
+    tools:context=".PrivateAddTaskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Add Your Task"
+            android:fontFamily="@font/varela_round"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/gradient_1"
+            />
+
+        <EditText
+            android:id="@+id/editTextAddFeel"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/varela_round"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="15dp"
+            android:textColorHint="#B6B6B6"
+            android:hint="What are you feeling" />
+
+        <EditText
+            android:id="@+id/editTextAddDescrip"
+            android:textColorHint="#B6B6B6"
+            android:fontFamily="@font/varela_round"
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:backgroundTint="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:paddingBottom="15dp"
+            android:layout_height="wrap_content"
+            android:hint="Elaborate your plan" />
+
+        <EditText
+            android:id="@+id/editTextAddSchedule"
+            android:textColorHint="#B6B6B6"
+            android:backgroundTint="@color/colorAccent"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/varela_round"
+            android:paddingBottom="15dp"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Due time" />
+
+        <Button
+            android:id="@+id/private_button_save"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+
+            android:background="@drawable/gradient_2"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

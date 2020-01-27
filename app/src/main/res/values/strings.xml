@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">To-Do Planner</string>
+    <string name="title_activity_study_planner">StudyPlannerActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="add_item">Add Item</string>
+    <string name="enter_item">Enter Item</string>
+    <string name="hint_item">Enter Item</string>
+    <string name="hint_qty">Quantity</string>
+    <string name="hint_color">Color</string>
+    <string name="hint_size">Size</string>
+    <string name="save_button">Save</string>
+    <string name="sure_text">Are you sure?</string>
+    <string name="no_text">no</string>
+    <string name="yes_text">yes</string>
+    <string name="edit_time">Edit Item</string>
+    <string name="update_text">Update</string>
+</resources>
